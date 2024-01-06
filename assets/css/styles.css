@@ -324,7 +324,6 @@ body.light-theme {
 }
 
 .home__name {
-
   font-size: var(--biggest-font-size);
   color: var(--first-color);
 }
@@ -1216,4 +1215,10 @@ body.light-theme {
     padding: 0.4rem;
     border-radius: 0.5rem;
   }
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  z-index: -10;
 }
